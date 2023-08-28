@@ -3,6 +3,8 @@ import './App.css';
 import UserDetails from './Components/UserDetails';
 import UserList from './Components/UserList';
 
+// Apiden kullanıcı ve kullanıcıya ait veri çekme işlemi.
+
 function App() {
 
   const [activeUser, setActiveUserId] = useState(null);
